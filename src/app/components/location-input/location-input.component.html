@@ -1,0 +1,10 @@
+<md-input placeholder="Address" [value]="locationDataInput.address1" (keyup)="address1($event.target.value)" ></md-input>
+<md-input placeholder="Address 2" [value]="locationDataInput.address2" (keyup)="address2($event.target.value)" ></md-input>
+<div class="row smallest Grid--gutters">
+	<div class="col-md-4">
+		<md-input placeholder="postcode" [value]="locationDataInput.postcode" (keyup)="postcode($event.target.value)" ></md-input>
+	</div>
+	<div class="col-md-4">
+		<md-input placeholder="city" [value]="locationDataInput.city" (keyup)="city($event.target.value)" ></md-input>
+	</div>
+</div>
